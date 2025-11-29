@@ -39,7 +39,8 @@
 /* ------------------------------------------------ */
 
 .header {
-  background-image: url(/img/kolodo.jpg);
+  /* background-image: url(/img/kolodo.jpg); */
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,7 +50,7 @@
   font-size: 85px;
   line-height: 75px;
   color: rgb(0, 0, 0);
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
   margin: 200px 0;
   padding: 40px;
 }
